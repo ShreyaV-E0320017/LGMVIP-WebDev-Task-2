@@ -1,0 +1,39 @@
+.class1 {
+    width: 100%;
+    height: 28rem;
+    border-radius: 26px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    background-color: cyan;
+    backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+    border-width: 0.8px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.425);
+    /* color: #fff; */
+}
+
+.class1:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+.avatar {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 250px;
+}
+
+.details {
+    margin: 20px;
+    text-align: center;
+}
+
+.fetails-body h3 {
+    font-weight: 800;
+    color: black;
+}
+
+.details-body p {
+    font-size: 15px;
+    font-weight: 761;
+    opacity: .9;
+}
